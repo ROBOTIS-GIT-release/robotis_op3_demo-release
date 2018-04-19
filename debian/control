@@ -1,0 +1,12 @@
+Source: ros-kinetic-robotis-op3-demo
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/robotis_op3_demo
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-robotis-op3-demo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-op3-ball-detector, ros-kinetic-op3-bringup, ros-kinetic-op3-demo
+Description: ROS packages for the robotis_op3_demo (meta package)
