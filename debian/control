@@ -1,0 +1,12 @@
+Source: ros-kinetic-op3-demo
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libeigen3-dev, libyaml-cpp-dev, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-geometry-msgs, ros-kinetic-op3-action-module-msgs, ros-kinetic-op3-ball-detector, ros-kinetic-op3-walking-module-msgs, ros-kinetic-robotis-controller-msgs, ros-kinetic-robotis-math, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Homepage: http://wiki.ros.org/op3_demo
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-op3-demo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libeigen3-dev, libyaml-cpp-dev, ros-kinetic-cmake-modules, ros-kinetic-geometry-msgs, ros-kinetic-op3-action-module-msgs, ros-kinetic-op3-ball-detector, ros-kinetic-op3-camera-setting-tool, ros-kinetic-op3-manager, ros-kinetic-op3-walking-module-msgs, ros-kinetic-op3-web-setting-tool, ros-kinetic-robotis-controller-msgs, ros-kinetic-robotis-math, ros-kinetic-ros-madplay-player, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Description: OP3 default demo It includes three demontrations(soccer demo, vision demo, action script demo)
