@@ -1,0 +1,11 @@
+ros-kinetic-op3-bringup (0.1.0-0xenial) xenial; urgency=high
+
+  * first release for ROS Kinetic
+  * updated CMakeLists.txt and package.xml of op3_bringup
+  * changed rviz config file
+  * refacoring to release
+  * Contributors: Kayman, Pyo
+
+ -- Pyo <pyo@robotis.com>  Wed, 18 Apr 2018 15:00:00 -0000
+
+
